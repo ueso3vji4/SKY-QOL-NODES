@@ -8,6 +8,7 @@ A small ComfyUI node pack focused on practical batch processing.
 | --- | --- |
 | **Load Images (Multi-Upload)** | Upload any number of images straight into the node (multi-select file picker or drag & drop onto the panel). Processes them through the workflow in sequential groups with a configurable group size, live progress, done/next markers on thumbnails, and a guarded Run batch button that can't double-queue. |
 | **Any to String (list-safe)** | Converts any incoming value to a string, one item at a time. Useful in batched workflows where display/preview nodes collapse lists and break downstream string inputs. |
+| **Mask Batch Union (merge all)** | Merges every mask in a batch into one mask via pixel-wise max. Useful after SAM3 text segmentation when multiple detections (face, hair, etc.) come out as separate masks and you want one combined region. Outputs the merged mask plus the original count. |
 
 ## Install
 
