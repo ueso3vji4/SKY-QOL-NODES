@@ -14,7 +14,7 @@ A small ComfyUI node pack focused on practical batch processing.
 
 ```
 cd ComfyUI/custom_nodes
-git clone https://github.com/ueso3vji4/ComfyUI-SkyNodes.git
+
 ```
 
 Restart ComfyUI. No extra requirements - the pack only uses what ComfyUI already ships with.
