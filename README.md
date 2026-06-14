@@ -1,4 +1,4 @@
-# Sky Nodes
+# S K Y Nodes
 
 A small ComfyUI node pack focused on practical batch processing.
 
